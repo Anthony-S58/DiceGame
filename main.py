@@ -35,5 +35,7 @@ time.sleep(1)
 #condition de victoire
 if player > ai :
     print("Vous avez gagné !")
+elif player == ai :
+    print("Ex-aequo")
 else :
     print("Vous avez perdu !")
