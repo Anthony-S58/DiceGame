@@ -19,10 +19,18 @@ print("""  _____  _             _____
 
 #variables et utilisation de l'aléatoire avec random
 player = random.randint(1,20)
+print("Vous lancez votre dé...")
+time.sleep(2)
 print("Vous avez obtenu : " + str(player))
 
+time.sleep(2)
+
 ai = random.randint(1,20)
+print("L'ordinateur lance son dé...")
+time.sleep(2)
 print("L'ordinateur a obtenu : " + str(ai))
+
+time.sleep(1)
 
 #condition de victoire
 if player > ai :
