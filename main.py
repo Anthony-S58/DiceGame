@@ -4,6 +4,9 @@
 #import de la fonction random
 import random
 
+#import de la fonction time pour ralentir le jeu
+import time
+
 #text to ascii for visual in shell
 print("""  _____  _             _____                      
  |  __ \(_)           / ____|                     
